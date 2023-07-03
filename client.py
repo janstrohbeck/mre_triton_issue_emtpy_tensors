@@ -1,10 +1,6 @@
-import argparse
-
 import grpc
 from tritonclient.grpc import service_pb2
 from tritonclient.grpc import service_pb2_grpc
-
-FLAGS = None
 
 if __name__ == '__main__':
     model_name = "test_model"
